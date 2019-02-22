@@ -68,6 +68,8 @@ class Student
   end
   
   def self 
+    
+  end 
   
   
 end
