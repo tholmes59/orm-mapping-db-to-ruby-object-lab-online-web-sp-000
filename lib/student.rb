@@ -92,7 +92,6 @@ class Student
       SELECT *
       FROM students
       WHERE grade = 10 
-      DESC 
       LIMIT 1 
     SQL
     
