@@ -71,5 +71,13 @@ class Student
     
   end 
   
+  def self 
+    
+  end 
+  
+  def self 
+    
+  end 
+  
   
 end
