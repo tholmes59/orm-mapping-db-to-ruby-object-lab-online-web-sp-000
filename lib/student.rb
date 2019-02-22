@@ -18,9 +18,10 @@ class Student
       FROM students
     SQL
     
-    DB[:conn].execute(sql)
+    DB[:conn].execute(sql).map |row|
+    self.new_from_db(row)
+    end
     
-    self.new_from_db(sql)
   end
 
   def self.find_by_name(name)
