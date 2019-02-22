@@ -63,7 +63,11 @@ class Student
     
   end 
   
-  def self
+  def self.students_below_12th_grade
+    
+  end
+  
+  def self 
   
   
 end
