@@ -87,9 +87,8 @@ class Student
     sql = <<-SQL
       SELECT *
       FROM students
-      ORDER BY grade 
-      DESC 
-      LIMIT 1
+      WHERE grade = 10
+      LIMIT ?
     SQL
     
     DB[:conn].execute(sql, x).map do |row|
